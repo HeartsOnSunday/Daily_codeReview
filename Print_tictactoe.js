@@ -18,13 +18,9 @@ function printBetterBoard() {
     if (counter % magicNumber === 1) {
       console.log(odd);
       counter--;
-      //console.log(counter);
     } else if (counter % magicNumber === 0) {
       console.log(even);
       counter--;
-      // console.log(counter);
-      // } else if (counter === 0) {
-      //   return 0;
     }
   }
 }
